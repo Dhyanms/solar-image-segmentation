@@ -39,11 +39,6 @@ project-root/
 ├── Image_Segmentation_Autoencoder.ipynb
 └── README.md
 ```
-
-**Sample Images:**
-- ![Sample Raw Image](images/sample_raw.png)
-- ![Sample Mask](images/sample_mask.png)
-
 ---
 
 ## Approaches & Notebooks
@@ -53,8 +48,11 @@ project-root/
   - U-Net convolutional neural network for multi-class segmentation (coronal holes, solar flares, active regions, quiet regions).
   - Moderate data augmentation and detailed post-processing.
 - **Output:**
-   ![Segmentation Output](images/Image_seg1_ouput.png)
-   ![Feature Composition](images/image_seg1_output1.png)
+
+   <img src="images/Image_seg1_ouput.png" alt="Segmentation Output" width="300"/>
+
+   <img src="images/image_seg1_output1.png" alt="Feature Composition" width="300"/>
+
 - **Uniqueness:**
   - Balanced augmentation for generalization.
   - Simultaneous segmentation of four solar features.
@@ -64,8 +62,11 @@ project-root/
 - **Approach:**
   - U-Net with more aggressive data augmentation and different optimizer settings.
 - **Output:**
-  ![Segmentation Output](images/image_seg_output.png)
-  ![Feature Composition](images/image_seg_output1.png)
+
+   <img src="images/image_seg_output.png" alt="Segmentation Output" width="300"/>
+
+   <img src="images/image_seg_output1.png" alt="Feature Composition" width="300"/>
+
 
 - **Uniqueness:**
   - Serves as a baseline with aggressive augmentation for comparison.
@@ -74,8 +75,11 @@ project-root/
 - **Approach:**
   - U-Net, best-tuned for final results, with optimal augmentation and hyperparameters.
 - **Output:**
-  ![Segmentation Output](images/image_seg_final_output.png)
-  ![Feature Composition](images/image_seg_final-output1.png)
+
+   <img src="images/image_seg_final_output.png" alt="Segmentation Output" width="300"/>
+
+   <img src="images/image_seg_final-output1.png" alt="Feature Composition" width="300"/>
+
 - **Uniqueness:**
   - Represents the best-performing, final version for supervised segmentation.
 
@@ -83,8 +87,12 @@ project-root/
 - **Approach:**
   - Autoencoder for unsupervised feature extraction, followed by K-means clustering for segmentation.
 - **Output:**
-  ![Segmentation Output](images/image_seg_autoenc_output.png)
-  ![Feature Composition](images/image_seg_autoenc_output1.png)
+
+   <img src="images/image_seg_autoenc_output.png" alt="Segmentation Output" width="300"/>
+
+   <img src="images/image_seg_autoenc_output1.png" alt="Feature Composition" width="300"/>
+
+
 - **Uniqueness:**
   - Integrates deep learning and classical machine learning.
   - Useful for unsupervised segmentation or when labeled data is scarce.
@@ -109,7 +117,8 @@ project-root/
    - Open any notebook in Jupyter or VSCode and run all cells.
    - Adjust paths as needed for your system.
 
-   ![Training Performance](images/Loss_acc.jpeg)
+      <img src="images/Loss_acc.jpeg" alt="Training Performance" width="300"/>
+   
 
 ---
 
