@@ -49,9 +49,10 @@ project-root/
   - Moderate data augmentation and detailed post-processing.
 - **Output:**
 
-   <img src="images/Image_seg1_ouput.png" alt="Segmentation Output" width="300"/>
+   <img src="images/Image_seg1_ouput.png" alt="Segmentation Output" width="500"/>
+   <br>
 
-   <img src="images/image_seg1_output1.png" alt="Feature Composition" width="300"/>
+   <img src="images/image_seg1_output1.png" alt="Feature Composition" width="500"/>
 
 - **Uniqueness:**
   - Balanced augmentation for generalization.
@@ -63,9 +64,10 @@ project-root/
   - U-Net with more aggressive data augmentation and different optimizer settings.
 - **Output:**
 
-   <img src="images/image_seg_output.png" alt="Segmentation Output" width="300"/>
+   <img src="images/image_seg_output.png" alt="Segmentation Output" width="500"/>
+   <br>
 
-   <img src="images/image_seg_output1.png" alt="Feature Composition" width="300"/>
+   <img src="images/image_seg_output1.png" alt="Feature Composition" width="500"/>
 
 
 - **Uniqueness:**
@@ -76,9 +78,10 @@ project-root/
   - U-Net, best-tuned for final results, with optimal augmentation and hyperparameters.
 - **Output:**
 
-   <img src="images/image_seg_final_output.png" alt="Segmentation Output" width="300"/>
+   <img src="images/image_seg_final_output.png" alt="Segmentation Output" width="500"/>
+   <br>
 
-   <img src="images/image_seg_final-output1.png" alt="Feature Composition" width="300"/>
+   <img src="images/image_seg_final-output1.png" alt="Feature Composition" width="500"/>
 
 - **Uniqueness:**
   - Represents the best-performing, final version for supervised segmentation.
@@ -88,9 +91,10 @@ project-root/
   - Autoencoder for unsupervised feature extraction, followed by K-means clustering for segmentation.
 - **Output:**
 
-   <img src="images/image_seg_autoenc_output.png" alt="Segmentation Output" width="300"/>
+   <img src="images/image_seg_autoenc_output.png" alt="Segmentation Output" width="500"/>
+   <br>
 
-   <img src="images/image_seg_autoenc_output1.png" alt="Feature Composition" width="300"/>
+   <img src="images/image_seg_autoenc_output1.png" alt="Feature Composition" width="500"/>
 
 
 - **Uniqueness:**
@@ -117,7 +121,7 @@ project-root/
    - Open any notebook in Jupyter or VSCode and run all cells.
    - Adjust paths as needed for your system.
 
-      <img src="images/Loss_acc.jpeg" alt="Training Performance" width="300"/>
+      <img src="images/Loss_acc.jpeg" alt="Training Performance" width="450"/>
    
 
 ---
